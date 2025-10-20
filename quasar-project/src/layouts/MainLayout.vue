@@ -1,10 +1,10 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
         <q-btn flat dense round icon="menu" aria-label="Menu" @click="toggleLeftDrawer" />
 
-        <q-toolbar-title> Quasar Aplikacija Knjiznica </q-toolbar-title>
+        <q-toolbar-title class="text-black"> Quasar Aplikacija Knjižnica </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
@@ -76,6 +76,12 @@ const linksList = [
     caption: 'Moj Gituhb repozetorij',
     icon: 'code',
     link: 'https://github.com/barich0/RIWA.git',
+  },
+  {
+    title: 'Veleri',
+    caption: 'Veleučilište u Rijeci',
+    icon: 'home',
+    link: 'https://www.veleri.hr/hr',
   },
 ]
 
