@@ -12,7 +12,7 @@
 
     <q-drawer v-model="leftDrawerOpen" show-if-above bordered>
       <q-list>
-        <q-item-label header> Essential Links </q-item-label>
+        <q-item-label header> Stranice knjižnice </q-item-label>
 
         <EssentialLink v-for="link in linksList" :key="link.title" v-bind="link" />
       </q-list>
@@ -30,7 +30,7 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksList = [
   {
-    title: 'Knjižnica-početna',
+    title: 'Knjižnica - početna',
     caption: 'Knjižnica - početna stranica',
     icon: 'home',
     link: '#/',
@@ -70,18 +70,6 @@ const linksList = [
     caption: 'Registracija u knjižnicu',
     icon: 'face',
     link: '#/Registracija',
-  },
-  {
-    title: 'Github',
-    caption: 'Moj Gituhb repozetorij',
-    icon: 'code',
-    link: 'https://github.com/barich0/RIWA.git',
-  },
-  {
-    title: 'Veleri',
-    caption: 'Veleučilište u Rijeci',
-    icon: 'home',
-    link: 'https://www.veleri.hr/hr',
   },
 ]
 
