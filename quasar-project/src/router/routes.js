@@ -10,7 +10,8 @@ const routes = [
               { path: '/Lokacija', component: () => import('pages/LokacijaPage.vue') },
               { path: '/Login', component: () => import('pages/LoginPage.vue') },
               { path: '/Registracija', component: () => import('pages/RegistracijaPage.vue') },
-              { path: '/Test', component: () => import('pages/TestPage.vue') }],
+              { path: '/Test', component: () => import('pages/TestPage.vue') },
+              { path: '/Test1', component: () => import('pages/Test1Page.vue') }],
   },
 
   // Always leave this as last one,
