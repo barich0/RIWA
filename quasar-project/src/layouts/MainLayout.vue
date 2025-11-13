@@ -36,6 +36,12 @@ const linksList = [
     link: '#/',
   },
   {
+    title: 'Unos novih knjiga',
+    caption: 'Unos novih knjiga u knjižnicu',
+    icon: 'add',
+    link: '#/UnosKnjiga',
+  },
+  {
     title: 'Nove knjige',
     caption: 'Nove knjige u knjižnici',
     icon: 'book',
